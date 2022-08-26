@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+        // MaterialApp: 구글에서 제공하는 Material 테마 같은걸 이용해서 앱을 만들 수 있음! (이것도 위젯중 하나!)
     return MaterialApp(
         // 위젯 4가지
         // 1. 글자위젯
