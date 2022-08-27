@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
         //    Ex) Icon(Icons.star)  ->  star 아이콘
         //        Icon(Icons.shop)  ->  shop 아이콘
         // 4. 박스위젯
-        //    Ex) SizedBox()
-        //        Container() ->  SizedBox()와 용도는 같음!
+        //    Ex) SizedBox()  ->  Container()보다 약간 가벼움!
+        //        Container() ->  SizedBox()와 용도 같지만 살짝 무거워서 남용 X!
         //        Container(width: 50, height: 50, color: Colors.blue)  ->  50LP = 1.2cm
         //        => 하지만 이렇게만 하면 어디서부터 50 인지 몰라서 화면 전체를 채우게 됨! ↓
         //        ==> 그래서 아래처럼 해주면 ↓
