@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               border: Border.all(
                     color: Colors.black,
                     width: 20 // border 굵기
-                ),
+              ),
               borderRadius: BorderRadius.all(
                   Radius.circular(50) // 박스 둥글게 만들기
               )
